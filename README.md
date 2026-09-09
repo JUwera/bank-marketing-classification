@@ -1,12 +1,12 @@
 # Random-Forest-Classifier-for-Bank-Marketing-Prediction
 ## Overview
-This project demonstrates the development and evaluation of a machine learning model, focusing on ensemble classification techniques and data integrity. The objective was to build a Random Forest Classifier using the UCI Bank Marketing dataset, resolve critical operational issues like data leakage, handle class imbalance, and extract feature importance to predict customer subscription behavior.
+This project demonstrates the development and evaluation of a machine learning model, focusing on ensemble classification techniques and data integrity. The objective was to build a Random Forest Classifier using the UCI Bank Marketing dataset, resolve critical operational issues like data leakage, handle class imbalance, and extract feature importance to predict customer subscription behaviour.
 
 ## Objectives
-* **Data Pre-processing:** Implement missing value imputation (mode imputation) and categorical variable encoding.
-* **Pipeline Optimisation:** Evaluate model performance before and after isolating the call duration feature to prevent data leakage.
-* **Hyperparameter Tuning:** Use Out-of-Bag (OOB) evaluation to systematically tune model estimators and tree depth.
-* **Imbalance Management:** Implement cost-sensitive learning to adjust training sample distribution weights.
+* **Data Pre-processing:** Implemented missing value imputation (mode imputation) and categorical variable encoding.
+* **Pipeline Optimisation:** Evaluated model performance before and after removing the call duration feature to prevent data leakage.
+* **Hyperparameter Tuning:** Used Out-of-Bag (OOB) evaluation to systematically tune model estimators and tree depth.
+* **Imbalance Management:** Implemented cost-sensitive learning to adjust training sample distribution weights.
 
 ## Technologies Used
 * **Language:** Python
@@ -16,7 +16,7 @@ This project demonstrates the development and evaluation of a machine learning m
 * **Version Control:** GitHub
 
 ## Experimental Framework
-The machine learning pipeline was designed using a standalone Jupyter Notebook framework and evaluates the following model architectures:
+The machine learning pipeline was designed using a Jupyter Notebook framework and evaluates the following model architectures:
 * **Logistic Regression:** Implemented with balanced class weights as a continuous probability baseline.
 * **Decision Tree Classifier:** Built to monitor baseline hierarchical branching and overfitting tendencies on dense datasets.
 * **Random Forest Classifier:** Developed as the primary ensemble learning engine using automated bootstrap sample bagging.
@@ -33,14 +33,14 @@ The machine learning pipeline was designed using a standalone Jupyter Notebook f
 * **Primary Demographic Indicators:** Identification of client age, campaign contacts, and specific economic index shifts as top feature importance factors.
 
 ## Key Learnings
-* **Ensemble Learning Mastery:** Developed an understanding of how Random Forest models utilise multiple decision trees to generalize on unexplored datasets.
+* **Ensemble Learning Mastery:** Developed an understanding of how Random Forest models utilise multiple decision trees to generalise on unexplored datasets.
 * **Operational Risk Management:** Gained hands-on experience identifying and rectifying data leakage to align machine learning parameters with real-world business constraints.
 * **Statistical Imbalance Processing:** Learned how to deploy cost-sensitive learning matrices to prevent minority class misclassification.
-* **Visual Exploration Synthesis:** Practiced using behavioral histograms and feature importance plots to map out actionable insights.
+* **Visual Exploration Synthesis:** Practiced using behavioural histograms and feature importance plots to map out actionable insights.
 
 ## Future Improvements
 * **Advanced Imbalance Oversampling:** Integrate SMOTE (Synthetic Minority Over-sampling Technique) pipelines to further balance the target data.
-* **Model Explainability Frameworks:** Implement SHAP (SHapley Additive exPlanations) or LIME to make individual tree splits completely transparent.
+* **Model Explainability Frameworks:** Implement SHAP (Shapley Additive exPlanations) or LIME to make individual tree splits completely transparent.
 * **Alternative Boosting Benchmarks:** Test the finalised preprocessing architecture against gradient boosting alternatives like XGBoost or LightGBM.
 
 ## Credits
