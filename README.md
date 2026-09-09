@@ -1,4 +1,4 @@
-# Random-Forest-Classifier-for-Bank-Marketing-Prediction
+# Random Forest Classifier for Bank Marketing Prediction
 ## Overview
 This project demonstrates the development and evaluation of a machine learning model, focusing on ensemble classification techniques and data integrity. The objective was to build a Random Forest Classifier using the UCI Bank Marketing dataset, resolve critical operational issues like data leakage, handle class imbalance, and extract feature importance to predict customer subscription behaviour.
 
